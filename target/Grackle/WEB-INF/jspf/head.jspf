@@ -1,0 +1,105 @@
+<%@ page pageEncoding="windows-1252" %>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Grackle, email mediation server">
+<meta name="author" content="Sithum Nissanka">
+
+<!-- The styles -->
+<style type="text/css">
+    @import "resources/css/bootstrap-cerulean.css";
+    @import "resources/css/bootstrap-responsive.css";
+    @import "resources/css/charisma-app.css";
+    @import "resources/css/jquery-ui-1.8.21.custom.css";
+    @import "resources/css/fullcalendar.css";
+    @import "resources/css/fullcalendar.print.css";
+    @import "resources/css/chosen.css";
+    @import "resources/css/uniform.default.css";
+    @import "resources/css/colorbox.css";
+    @import "resources/css/jquery.cleditor.css";
+    @import "resources/css/jquery.noty.css";
+    @import "resources/css/noty_theme_default.css";
+    @import "resources/css/elfinder.min.css";
+    @import "resources/css/elfinder.theme.css";
+    @import "resources/css/jquery.iphone.toggle.css";
+    @import "resources/css/opa-icons.css";
+    @import "resources/css/uploadify.css";
+    body {
+        padding-bottom: 40px;
+    }
+    .sidebar-nav {
+        padding: 9px 0;
+    }
+</style>
+
+<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="resources/js/jquery-1.9.1.js"></script>
+<script src="resources/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="resources/js/bootstrap-transition.js"></script>
+<!-- alert enhancer library -->
+<script src="resources/js/bootstrap-alert.js"></script>
+<!-- modal / dialog library -->
+<script src="resources/js/bootstrap-modal.js"></script>
+<!-- custom dropdown library -->
+<script src="resources/js/bootstrap-dropdown.js"></script>
+<!-- scrolspy library -->
+<script src="resources/js/bootstrap-scrollspy.js"></script>
+<!-- library for creating tabs -->
+<script src="resources/js/bootstrap-tab.js"></script>
+<!-- library for advanced tooltip -->
+<script src="resources/js/bootstrap-tooltip.js"></script>
+<!-- popover effect library -->
+<script src="resources/js/bootstrap-popover.js"></script>
+<!-- button enhancer library -->
+<script src="resources/js/bootstrap-button.js"></script>
+<!-- accordion library (optional, not used in demo) -->
+<script src="resources/js/bootstrap-collapse.js"></script>
+<!-- carousel slideshow library (optional, not used in demo) -->
+<script src="resources/js/bootstrap-carousel.js"></script>
+<!-- autocomplete library -->
+<script src="resources/js/bootstrap-typeahead.js"></script>
+<!-- tour library -->
+<script src="resources/js/bootstrap-tour.js"></script>
+<!-- library for cookie management -->
+<script src="resources/js/jquery.cookie.js"></script>
+<!-- calander plugin -->
+<script src='resources/js/fullcalendar.min.js'></script>
+<!-- data table plugin -->
+<script src='resources/js/jquery.dataTables.min.js'></script>
+
+<!-- chart libraries start -->
+<script src="resources/js/excanvas.js"></script>
+<script src="resources/js/jquery.flot.min.js"></script>
+<script src="resources/js/jquery.flot.pie.min.js"></script>
+<script src="resources/js/jquery.flot.stack.js"></script>
+<script src="resources/js/jquery.flot.resize.min.js"></script>
+<!-- chart libraries end -->
+
+<!-- select or dropdown enhancer -->
+<script src="resources/js/chosen.jquery.min.js"></script>
+<!-- checkbox, radio, and file input styler -->
+<script src="resources/js/jquery.uniform.min.js"></script>
+<!-- plugin for gallery image view -->
+<script src="resources/js/jquery.colorbox-min.js"></script>
+<!-- rich text editor library -->
+<!--<script src="resources/js/jquery.cleditor.min.js"></script>-->
+<!-- notification plugin -->
+<script src="resources/js/jquery.noty.js"></script>
+<!-- file manager library -->
+<!--<script src="resources/js/jquery.elfinder.min.js"></script>-->
+<!-- star rating plugin -->
+<script src="resources/js/jquery.raty.min.js"></script>
+<!-- for iOS style toggle switch -->
+<script src="resources/js/jquery.iphone.toggle.js"></script>
+<!-- autogrowing textarea plugin -->
+<script src="resources/js/jquery.autogrow-textarea.js"></script>
+<!-- multiple file upload plugin -->
+<script src="resources/js/jquery.uploadify-3.1.min.js"></script>
+<!-- history.js for cross-browser state change on ajax -->
+<script src="resources/js/jquery.history.js"></script>
+<!-- application script for Charisma demo -->
+<script src="resources/js/charisma.js"></script>
+
+<!-- The fav icon -->
+<link rel="shortcut icon" href="resources/img/favicon.ico">
