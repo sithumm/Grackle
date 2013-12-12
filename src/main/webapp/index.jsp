@@ -3,6 +3,8 @@
     Created on : Nov 9, 2013, 9:26:10 PM
     Author     : sithum
 --%>
+<%@page contentType="text/html" pageEncoding="utf-8"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,14 +19,14 @@
 
                 <div class="row-fluid">
                     <div class="span12 center login-header">
-                        <h2>Welcome to Grackle</h2>
+                        <h2><fmt:message key="grackle.welcome" /></h2>
                     </div><!--/span-->
                 </div><!--/row-->
 
                 <div class="row-fluid">
                     <div class="well span5 center login-box">
                         <div class="alert alert-info">
-                            Please login with your Username and Password.
+                            <fmt:message key="grackle.welcome.instruction" />
                         </div>
                         <form class="form-horizontal" action="dashboard.jsp" method="post">
                             <fieldset>
@@ -39,12 +41,12 @@
                                 <div class="clearfix"></div>
 
                                 <div class="input-prepend">
-                                    <label class="remember" for="remember"><input type="checkbox" id="remember" />Remember me</label>
+                                    <label class="remember" for="remember"><input type="checkbox" id="remember" /><fmt:message key="grackle.welcome.remember" /></label>
                                 </div>
                                 <div class="clearfix"></div>
 
                                 <p class="center span5">
-                                    <button type="submit" class="btn btn-primary">Login</button>
+                                    <button type="submit" class="btn btn-primary"><fmt:message key="grackle.login" /></button>
                                 </p>
                             </fieldset>
                         </form>

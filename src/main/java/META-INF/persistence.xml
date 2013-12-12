@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="GracklePU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.grackle.domain.Userroles</class>
+    <class>org.grackle.domain.Profiles</class>
+    <class>org.grackle.domain.Templates</class>
+    <class>org.grackle.domain.Workspaces</class>
+    <class>org.grackle.domain.Profiletemplates</class>
+    <class>org.grackle.domain.Users</class>
+    <class>org.grackle.domain.Roles</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:D:\Dev-Env\workspaces\GitProjects\Grackle\src\main\resources\db\Grackle"/>
+      <property name="javax.persistence.jdbc.password" value="gr1ckle"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.user" value="grackle"/>
+    </properties>
+  </persistence-unit>
+</persistence>
